@@ -1,7 +1,7 @@
 Introduzione
 ==================
 
-Credits
+Credits - TEST
 ------------------------------------------
 
 .. image:: img/Gter.png
