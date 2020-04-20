@@ -129,7 +129,7 @@ html_context = {
 }
 
   
- {%block extrabody %}
+{%block extrabody %}
 
   <nav class="release_status_topbar">
 
@@ -142,7 +142,7 @@ html_context = {
 
   {{ super() }}
 
- {% endblock extrabody %}
+{% endblock extrabody %}
 
 html_style = 'css/custom.css'
 
