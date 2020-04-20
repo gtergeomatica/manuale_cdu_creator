@@ -125,7 +125,7 @@ html_logo = 'img/logo.png'
 
 html_context = {
         'theme_logo_only': True,
-	'outdated': True,
+        'outdated': True,
 }
 
 html_style = 'css/custom.css'
