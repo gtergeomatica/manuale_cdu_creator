@@ -1,4 +1,6 @@
 
+@import url('theme.css');
+
 p {
     text-align: justify;
 }
@@ -101,7 +103,7 @@ select#languages option {
     color: #6a0e0e;
 }
 
-.rst-content .menuselection {
+/* .rst-content .menuselection {
  background:#7fbbe3;
  font-size: 80%;
  border:1px solid #7fbbe3;
@@ -109,4 +111,4 @@ select#languages option {
  border-radius:4px;
  padding:2.4px 6px;
  margin:auto 2px
-}
+} */
