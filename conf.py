@@ -135,6 +135,7 @@ sys.path.insert(0, os.path.abspath('../../'))
 with open('document_settings.yml', 'r') as f:
     cfg = yaml.safe_load(f)
 
+supported_languages = cfg['supported_languages'].replace(' ','').split(',')
 version_list = cfg['version_list'].replace(' ','').split(',')
 docs_url = 'https://manuale-cdu-creator.readthedocs.io/it/'
 
@@ -142,6 +143,7 @@ html_context = {
         'theme_logo_only': True,
         'outdated': True,
         'versions': [ [v, docs_url+v] for v in version_list],
+        'supported_languages': [ [l, docs_url+version+'/'+l] for l in supported_languages]
 }
 
 html_style = 'css/custom.css'

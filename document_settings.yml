@@ -1,5 +1,6 @@
 ---
 version_list: latest, 1.0
+supported_languages: it
 python:
   version: 3.5
 document:
