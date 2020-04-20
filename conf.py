@@ -24,7 +24,7 @@ copyright = u'2019, Gter srl'
 author = u'Gter srl'
 
 # The short X.Y version
-version = u''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
 release = u'1.0'
 
