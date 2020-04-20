@@ -90,7 +90,7 @@ html_title = ""
 
 html_logo = 'img/logo.png'
 
-
+html_theme_path = ['./themes']
 
 #import guzzle_sphinx_theme
 #extensions.append("guzzle_sphinx_theme")
