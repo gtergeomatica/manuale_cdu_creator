@@ -125,7 +125,24 @@ html_logo = 'img/logo.png'
 
 html_context = {
         'theme_logo_only': True,
+	'old_version': True,
 }
+
+  
+ {%block extrabody %}
+
+  <nav class="release_status_topbar">
+
+   {%- if old_version %}
+    <div class="row old_version">
+     Questo documento fa riferimento a una vecchia versione del Plugin CDU Creator. Vedi <a href="https://manuale-cdu-creator.readthedocs.io/it/latest/{{ pagename }}.html">ultima versione</a>.
+    </div>
+   {%- endif %}
+  </nav>
+
+  {{ super() }}
+
+ {% endblock extrabody %}
 
 html_style = 'css/custom.css'
 
