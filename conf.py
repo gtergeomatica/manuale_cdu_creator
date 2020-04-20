@@ -125,11 +125,23 @@ html_theme_options = {
 }
 
 
+import os
+import sys
+import yaml
+# sys.path.insert(0, os.path.abspath('.'))
 
+sys.path.insert(0, os.path.abspath('../../'))
+
+with open('document_settings.yml', 'r') as f:
+    cfg = yaml.safe_load(f)
+
+version_list = cfg['version_list'].replace(' ','').split(',')
+docs_url = 'https://manuale-cdu-creator.readthedocs.io/it/'
 
 html_context = {
         'theme_logo_only': True,
         'outdated': True,
+        'versions': [ [v, docs_url+v] for v in version_list],
 }
 
 html_style = 'css/custom.css'
