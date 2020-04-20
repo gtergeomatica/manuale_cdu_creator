@@ -146,7 +146,7 @@ html_context = {
         #'supported_languages': [ [l, docs_url+version+'/'+l] for l in supported_languages]
 }
 
-#html_style = 'css/custom.css'
+html_style = 'css/custom.css'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
