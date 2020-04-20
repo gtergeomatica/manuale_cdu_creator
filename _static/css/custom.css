@@ -89,26 +89,3 @@ select#languages option {
 #versions-links-list :first-child::before {
     content: ""
 }
-
-.outdated {
-    padding-top: 0.5rem;
-    margin-left: 0;
-    padding-left: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 0.9rem;
-    z-index: 300;
-    width: 100%;
-    position: fixed;
-    background: #ffbaba;
-    color: #6a0e0e;
-}
-
-.rst-content .menuselection {
- background:#7fbbe3;
- font-size: 80%;
- border:1px solid #7fbbe3;
- font-weight:700;
- border-radius:4px;
- padding:2.4px 6px;
- margin:auto 2px
-}
