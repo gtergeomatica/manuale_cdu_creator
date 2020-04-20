@@ -90,7 +90,7 @@ select#languages option {
     content: ""
 }
 
-.old_version {
+.outdated {
     padding-top: 0.5rem;
     margin-left: 0;
     padding-left: 0.5rem;
