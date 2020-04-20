@@ -1,4 +1,6 @@
 ---
+python:
+  version: 3.7
 document:
   description: "Breve tutorial che spiega come utilizzare QGIS per la gestione dei dati lidar."
   name: "Tutorial - Utilizzo di QGIS per la gestione di dati LIDAR forestali"
