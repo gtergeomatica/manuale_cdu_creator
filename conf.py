@@ -129,7 +129,7 @@ html_context = {
 }
 
   
-{%block extrabody %}
+{% block extrabody %}
 
   <nav class="release_status_topbar">
 
