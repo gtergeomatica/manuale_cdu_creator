@@ -128,17 +128,6 @@ html_context = {
 	'outdated': True,
 }
 
-  
-
-{% if outdated %}
-	<nav class="release_status_topbar">
-    		<div class="row outdated">
-     			Questo documento fa riferimento a una vecchia versione del Plugin CDU Creator. Vedi <a href="https://manuale-cdu-creator.readthedocs.io/it/latest/{{ pagename }}.html">ultima versione</a>.
-    		</div>
-	</nav>
-{% endif %}
- 
-
 html_style = 'css/custom.css'
 
 # Add any paths that contain custom static files (such as style sheets) here,
