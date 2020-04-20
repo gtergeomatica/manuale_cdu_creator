@@ -85,8 +85,8 @@ pygments_style = None
 #html_theme = 'alabaster'
 
 #standard readthedocs
-html_theme = "sphinx_rtd_theme"
-#html_theme = "rtd_gter"
+#html_theme = "sphinx_rtd_theme"
+html_theme = "rtd_gter"
 
 html_title = ""
 
@@ -146,7 +146,7 @@ html_context = {
         #'supported_languages': [ [l, docs_url+version+'/'+l] for l in supported_languages]
 }
 
-html_style = 'css/custom.css'
+#html_style = 'css/custom.css'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
