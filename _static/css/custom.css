@@ -103,12 +103,12 @@ select#languages option {
     color: #6a0e0e;
 }
 
-/* .rst-badge{
+.rst-badge{
     font-size: 90% !important;
     padding: 12px !important;
     color: gray !important;
     display: none !important;
-} */
+}
 
 /* .rst-content .menuselection {
  background:#7fbbe3;
