@@ -132,7 +132,7 @@ html_context = {
         'outdated': True,
 }
 
-version_list: latest, 1.0
+version_list= ['latest', '1.0']
 
 html_style = 'css/custom.css'
 
