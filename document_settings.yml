@@ -1,4 +1,10 @@
-
-version_list: latest, 1.0
-supported_languages: it
-
+---
+python:
+  version: 3.5
+document:
+  description: "Breve tutorial che spiega come utilizzare QGIS per la gestione dei dati lidar."
+  name: "Tutorial - Utilizzo di QGIS per la gestione di dati LIDAR forestali"
+  tags:
+    - "QGIS"
+    - "lidar"
+    - "CHM"
