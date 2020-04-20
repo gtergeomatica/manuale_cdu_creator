@@ -7,12 +7,12 @@
     </span>
 
     <div class="rst-other-versions">
-      <dl>
+      <!-- <dl>
         <dt>{{ _('Languages') }}</dt>
         {% for slug, url in supported_languages %}
           <dd><a href="{{ url }}">{{ slug }}</a></dd>
         {% endfor %}
-      </dl>
+      </dl> -->
 
       <dl>
         <dt>{{ _('Versions') }}</dt>
@@ -21,7 +21,7 @@
         {% endfor %}
       </dl>
 
-      {% if version_downloads %} 
+<!--       {% if version_downloads %} 
        <dl>
         <dt>{{ _('Downloads') }}</dt>
         {% for type, url in downloads %}
@@ -60,7 +60,7 @@
           <dd>
             <a href="https://github.com/qgis/QGIS/tree/{{ source_version }}">{{ _('Source') }}</a>
           </dd>
-      </dl>
+      </dl> -->
 
     </div>
   </div>

@@ -132,6 +132,8 @@ html_context = {
         'outdated': True,
 }
 
+version_list: latest, 1.0
+
 html_style = 'css/custom.css'
 
 # Add any paths that contain custom static files (such as style sheets) here,
