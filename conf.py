@@ -91,8 +91,8 @@ pygments_style = None
 #html_theme = 'alabaster'
 
 #standard readthedocs
-#html_theme = "sphinx_rtd_theme"
-html_theme = "rtd_gter"
+html_theme = "sphinx_rtd_theme"
+#html_theme = "rtd_gter"
 
 html_title = ""
 
