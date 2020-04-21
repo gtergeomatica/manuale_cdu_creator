@@ -127,8 +127,8 @@ html_theme_options = {
     # 'titles_only': False
 }
 
-html_theme_path = ['./_static']
-
+#html_theme_path = ['./_static']
+html_style = 'css/custom.css'
 
 # import os
 # import sys
