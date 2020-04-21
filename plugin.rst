@@ -247,7 +247,7 @@ L'output finale è un file PDF (eventualmente multipagina a seconda del contenut
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 10.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <video controls src="_static/CDU_finale.mp4" style="max-width: 100%;"></video>
+        <video controls src="img/CDU_finale.mp4" style="max-width: 100%;"></video>
     </div>
 
 .. |m2| replace:: m\ :sup:`2`\
