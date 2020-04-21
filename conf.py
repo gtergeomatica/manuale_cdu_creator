@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Manuale - CDU Creator Plugin - QGIS'
-copyright = u'2019, Gter srl'
+#copyright = u'2019, Gter srl'
 author = u'Gter srl'
 
 # The short X.Y version
