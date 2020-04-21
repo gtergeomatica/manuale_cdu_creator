@@ -152,11 +152,9 @@ select#languages option {
 
 /* override table width restrictions 
 from https://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html */
-@media screen and (min-width: 767px) {
+/*@media screen and (min-width: 767px) {
 
    .wy-table-responsive table td {
-      /* !important prevents the common CSS stylesheets from overriding
-         this as on RTD they are loaded after this stylesheet */
       white-space: normal !important;
    }
 
@@ -164,3 +162,4 @@ from https://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html */
       overflow: visible !important;
    }
 }
+*/
