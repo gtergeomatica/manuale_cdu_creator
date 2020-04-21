@@ -22,7 +22,7 @@ import datetime
 
 project = u'Manuale - CDU Creator Plugin - QGIS'
 now = datetime.datetime.now()
-copyright = now.year + ', Gter srl'
+copyright = u'{}, Gter srl'.format(now.year)
 author = u'Gter srl'
 
 # The short X.Y version
