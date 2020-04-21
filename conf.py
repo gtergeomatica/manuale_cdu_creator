@@ -116,7 +116,7 @@ html_theme_options = {
 	# #'html_logo': img/4ISTITUZIONALI.png,
     'display_version': True,
     'prev_next_buttons_location': 'both',
-    'style_external_links': True,
+    'style_external_links': False,
     # 'vcs_pageview_mode': '',
     # #'html_scaled_image_link': True,
     # # Toc options
@@ -127,7 +127,7 @@ html_theme_options = {
     # 'titles_only': False
 }
 
-#html_theme_path = ['./themes']
+html_theme_path = ['./_static']
 
 
 # import os
