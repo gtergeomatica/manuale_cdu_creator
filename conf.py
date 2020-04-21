@@ -47,7 +47,12 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.extlinks',
+    'sphinx.ext.doctest',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.imgmath',
 ]
+
+
 
 # Add any paths that contain templates here, relative to this directory.
 #templates_path = ['_templates']
@@ -92,8 +97,6 @@ html_title = ""
 
 html_logo = 'img/logo.png'
 
-html_theme_path = ['./themes']
-
 #import guzzle_sphinx_theme
 #extensions.append("guzzle_sphinx_theme")
 #html_theme_path = guzzle_sphinx_theme.html_theme_path()
@@ -124,6 +127,8 @@ html_theme_options = {
     # 'titles_only': False
 }
 
+html_theme_path = ['./themes']
+
 
 # import os
 # import sys
@@ -146,7 +151,7 @@ html_context = {
         #'supported_languages': [ [l, docs_url+version+'/'+l] for l in supported_languages]
 }
 
-html_style = 'css/custom.css'
+#html_style = 'css/custom.css'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
