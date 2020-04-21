@@ -50,7 +50,7 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.imgmath',
-	'versionwarning.extension',
+    #'versionwarning.extension',
 ]
 
 
