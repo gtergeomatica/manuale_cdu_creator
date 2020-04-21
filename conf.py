@@ -127,7 +127,7 @@ html_theme_options = {
     # 'titles_only': False
 }
 
-html_theme_path = ['./themes']
+#html_theme_path = ['./themes']
 
 
 # import os
