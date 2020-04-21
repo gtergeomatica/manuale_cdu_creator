@@ -1,0 +1,15 @@
+{% extends "sphinx_rtd_theme/layout.html" %}
+
+ {%block extrabody %}
+
+  <nav class="release_status_topbar">
+   {%- if outdated %}
+    <div class="row outdated">
+     Questo manuale fa riferimento a una vecchia versione del Plugin CDU Creator. Consulta l'<a href="https://manuale-cdu-creator.readthedocs.io/it/latest/{{ pagename }}.html">ultima versione</a>.
+    </div>
+   {%- endif %}
+  </nav>
+
+  {{ super() }}
+
+ {% endblock extrabody %}

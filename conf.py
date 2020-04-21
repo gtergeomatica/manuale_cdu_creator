@@ -90,8 +90,8 @@ pygments_style = None
 #html_theme = 'alabaster'
 
 #standard readthedocs
-#html_theme = "sphinx_rtd_theme"
-html_theme = "rtd_gter"
+html_theme = "sphinx_rtd_theme"
+#html_theme = "rtd_gter"
 
 html_title = ""
 
@@ -116,7 +116,7 @@ html_theme_options = {
 	# #'html_logo': img/4ISTITUZIONALI.png,
     'display_version': True,
     'prev_next_buttons_location': 'both',
-    'style_external_links': False,
+    'style_external_links': True,
     # 'vcs_pageview_mode': '',
     # #'html_scaled_image_link': True,
     # # Toc options
