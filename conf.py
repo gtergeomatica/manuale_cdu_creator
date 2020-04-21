@@ -152,9 +152,9 @@ html_context = {
         #'supported_languages': [ [l, docs_url+version+'/'+l] for l in supported_languages]
 }
 
-html_additional_pages = {
-	'banner': 'layout.html',
-}
+#html_additional_pages = {
+#	'banner': 'layout.html',
+#}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
