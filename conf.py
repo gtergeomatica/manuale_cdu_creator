@@ -15,12 +15,14 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import datetime
 
 
 # -- Project information -----------------------------------------------------
 
 project = u'Manuale - CDU Creator Plugin - QGIS'
-#copyright = u'2019, Gter srl'
+now = datetime.datetime.now()
+copyright = now.year + ', Gter srl'
 author = u'Gter srl'
 
 # The short X.Y version
