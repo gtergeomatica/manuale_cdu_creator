@@ -162,6 +162,9 @@ Sempre dall'interfaccia grafica del Plugin è possibile anche selezionare le par
 * eventuali righe vuote saranno ignorate
 
 .. image:: img/txt_file_import.png
+  :align: center
+  
+.. image:: img/import_file.gif
 
 Modifica della selezione esistente
 ++++++++++++++++++++++++++++++++++
