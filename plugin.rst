@@ -151,9 +151,21 @@ Per seleziona la o le particelle per la quali si vuole compilare il CDU da inter
 
 .. image:: img/gui_selez.gif
 
+Sempre dall'interfaccia grafica del Plugin è possibile anche selezionare le particelle elencate in un file di testo da importare tramite il bottone **Importa da file**. Cliccando sul bottone si apre si una finestra di dialogo tipo esplora risorse da cui sarà possibile navigare all’interno della propria macchina e selezionare un file *.txt/.csv* con l'elenco delle particelle che si vogliono selezionare. Il file di testo deve essere così composto:
+
+* ogni particella deve essere identificata da sezione (se presente), numero di foglio e mappale
+* sezione foglio e mappale devono essere **separati dalla virgola** (,)
+* devono essere obbligatoriamente indicati **almeno il numero di foglio e mappale** altrimenti la riga sarà ignorata
+* una particella per riga
+* in caso di file **.txt non deve** essere inserita alcuna intestazione alla prima riga (es. nome delle colonne)
+* in caso di file **.csv deve** essere inserita l'intestazione alla prima riga (es. nome delle colonne)
+* eventuali righe vuote saranno ignorate
+
+.. image:: img/txt_file_import.png
+
 Modifica della selezione esistente
 ++++++++++++++++++++++++++++++++++
-Una volta fatta la selezione è ovviamente possibile modificarla, rimuovendo o aggiungendo le particelle alla selezione esistente. I due metodi di selezione sono interoperabili, ciò significa che è possibile fare la selezione tramite gli strumenti di QGIS e rimuovere o aggiungere una o più particelle con gli strumenti dell'interfaccia e viceversa.
+Una volta fatta la selezione, con qualsiasi strumento sopra indicato, è ovviamente possibile modificarla, rimuovendo o aggiungendo le particelle alla selezione esistente. I due metodi di selezione sono interoperabili, ciò significa che è possibile fare la selezione tramite gli strumenti di QGIS e rimuovere o aggiungere una o più particelle con gli strumenti dell'interfaccia e viceversa.
 
 **Per RIMUOVERE dalla selezione esistente:**
 
