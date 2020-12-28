@@ -237,7 +237,7 @@ Output
 Log
 +++++++++++++++
 
-.. image:: img/tab_3.png
+.. image:: img/tab_3_new.png
 
 * **24 - Messaggi di Log:** tutti i messaggi di warning o di errore così come i messaggi informativi sull'andamento del processo compariranno in questa area.
 * **25 - Pulisci Log:** il bottone pulisce l’area dei messaggi di Log rimuovendo eventuali messaggi di processi precedenti.
